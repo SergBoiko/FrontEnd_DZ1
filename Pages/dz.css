@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+.btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    border: 4.5px double rgba(255, 255, 255, 0.45);
+    background: radial-gradient(white, rgb(255, 169, 212));
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(29, 29, 29, 0.4);
+    
+    
+}
+.btn:active{
+    background: radial-gradient( rgb(255, 103, 179), white,);
+    
+}
+
+
+
+ol{
+    list-style-type: upper-roman;
+}
+
+
+
+li.spades::before {
+    content: "\2660";
+}
+
+li.clubs::before {
+    content: "\2663";
+}
+
+li.diams::before {
+    content: "\2666";
+    color: red;
+}
+
+li.hearts::before {
+    content: "\2665";
+    color: red;
+}   
+
+
+
+
+
+@font-face{
+    font-family:Lobster-Regular;
+    src: local('Lobster'),
+    url(fonts/Lobster/Lobster-Regular.ttf);
+}
+#san{
+    font-family: Lobster-Regular;
+    
+}
+@font-face{
+    font-family:IndieFlower-Regular;
+    src: local('Indie_Flower'),
+    url(fonts/Indie_Flower/IndieFlower-Regular.ttf);
+}
+#tok{
+    font-family: IndieFlower-Regular;
+}
+
+@font-face{
+    font-family:DancingScript-VariableFont_wght;
+    src: local('DancingScript-VariableFont_wght'),
+    url(fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+#ber{
+    font-family: DancingScript-VariableFont_wght;
+}
+
+@font-face{
+    font-family:BebasNeue-Regular;
+    src: local('BebasNeue-Regular'),
+    url(fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+#k{
+    font-family: BebasNeue-Regular;
+}
+
+@font-face{
+    font-family:AmaticSC-Regular;
+    src: local('AmaticSC-Regular'),
+    url(fonts/Amatic_SC/AmaticSC-Regular.ttf);
+}
+#lon{
+    font-family: AmaticSC-Regular;
+}
+
+
+
+
+.text{
+    width: 600px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px 30px;
+    position: fixed;
+    top: 5%;
+    right: 50%;
+    left: 50%;
+    margin: 0 0 0 -350px;
+}
